@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  background-color: aqua;
+  color: blue;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.bulbcontainer {
+  background: #b3f208;
+  border-radius: 500px;
+  margin: 20px 0;
+}
+
+.bulb {
+  height: 254px;
+  width: 254px;
+}

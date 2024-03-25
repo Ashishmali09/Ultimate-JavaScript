@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  color: blue;
+}
+
+.red {
+  background-color: red;
+  color: black;
+}
+
+.text-dark {
+  color: crimson;
+}

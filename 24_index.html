@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Script Tag</title>
+    <link rel="stylesheet" href="24_style.css" type="text/css" />
+  </head>
+  <body>
+    Hello World
+    <!-- <script src="24_Script_tag.js"></script> -->
+    <!-- <script src="24_Script_tag1.js"></script> -->
+    <!-- <script src="24_Script_tag2.js"></script> -->
+
+    <script src="24_Script_tag.js">
+      // Advantages of using separate external script file using src attribute of script tag
+      // 1.Separation of concerns
+      // 2.Browser caching
+      console.log("I am trying to be smart");  // This will be ignored if using both scenarios
+    </script>
+  </body>
+</html>

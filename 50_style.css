@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(240, 226, 209);
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.random {
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.jokescript {
+  background-color: aqua;
+  justify-content: center;
+  padding: 10px;
+  font-size: larger;
+  border-style: solid;
+  border-color: blue;
+  border-right-width: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#joke {
+  background-color: rgb(244, 165, 109);
+  color: purple;
+  font-size: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0px;
+}

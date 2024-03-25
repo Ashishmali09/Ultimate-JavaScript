@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+  /* background-image: url("https://images.herzindagi.info/image/2023/Oct/dakota-johnson-movies.jpg"); */
+  /* background-image: url("https://external-preview.redd.it/cH15szD75Wr8sY4iSZzyrOywJXEKE7NAiBa7q625JvI.jpg?width=1080&crop=smart&auto=webp&s=67a74dcf1eac958d6b83597dd4ed1c4b12d2a268"); */
+  /* background-image: url("https://media.istockphoto.com/id/536507269/photo/night-sky-with-bright-stars-and-blue-nebula.jpg?s=2048x2048&w=is&k=20&c=7WftQRgCZzsWNTcVcWJvXbCyKp1t8sL-cQYVvSmJwWQ="); */
+  /* background-image: url("https://media.istockphoto.com/id/1423861263/video/energy-abstract-colored-particles.mp4?s=mp4-640x640-is&k=20&c=ZmiP7eSDMvsebMc5FKrZ4dQo16KWi2Qh5rmkB7Mpyc0="); */
+
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: #e37a33;
+  transform: translateX(-50%) translateY(-60%);
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 7px;
+  /* background-color: thistle; */
+}
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: red;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  font-family: fantasy;
+  background-color: aliceblue;
+  border-radius: 20px;
+  letter-spacing: 9px;
+  /* background-color: thistle; */
+}
