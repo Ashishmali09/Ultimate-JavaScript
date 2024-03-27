@@ -1,10 +1,10 @@
 {
   "dependencies": {
+    "express": "^4.19.2",
     "pdf-node": "^1.0.1",
     "prompt-sync": "^4.2.0"
   },
   "name": "ultimate-javascript",
-  "type": "module",
   "version": "1.0.0",
   "main": "00_Intro_to_JS.js",
   "scripts": {
