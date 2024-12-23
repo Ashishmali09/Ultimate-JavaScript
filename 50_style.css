@@ -29,8 +29,8 @@ body {
 }
 
 #joke {
-  background-color: rgb(244, 165, 109);
-  color: purple;
+  background-color: rgb(243, 151, 235);
+  color: rgb(18, 18, 190);
   font-size: 1.5em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
