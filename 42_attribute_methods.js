@@ -11,6 +11,7 @@ second.setAttribute("target", "_blank");
 // first.removeAttribute("class");
 
 console.log(first.attributes);
+console.log(second.attributes);
 
 console.log(second.dataset);
 console.log(second.dataset.game);
