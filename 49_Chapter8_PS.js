@@ -1,8 +1,8 @@
 // Problem 1
-// button with multiple alerts ft. index.html
+/* button with multiple alerts ft. index.html */
 
 //Problem 2
-// See index.html
+/* See index.html */
 
 //Problem 3
 document.getElementById("google").addEventListener("click", function (e) {
@@ -16,16 +16,16 @@ document.getElementById("twitter").addEventListener("click", function (e) {
 });
 
 //Problem 4
-// const fetchContent = async (url) => {
-//   con = await fetch(url);
-//   let a = con.json();
-//   return a;
-// };
+const fetchContent = async (url) => {
+  con = await fetch(url);
+  let a = con.json();
+  return a;
+};
 
-// setInterval(async function () {
-//   let url = "https://jsonplaceholder.typicode.com/todos/1";
-//   console.log(await fetchContent(url));
-// }, 5000);
+setInterval(async function () {
+  let url = "https://jsonplaceholder.typicode.com/todos/1";
+  console.log(await fetchContent(url));
+}, 5000);
 
 //Problem 5
 setInterval(() => {
