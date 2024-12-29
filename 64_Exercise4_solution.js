@@ -28,8 +28,8 @@ const showTime = () => {
 showTime();
 
 //Solution 2
-// let time = document.getElementById("time");
-// setInterval(() => {
-//   let date = new Date();
-//   time.innerHTML = date;
-// }, 1000);
+let time = document.getElementById("time");
+setInterval(() => {
+  let date = new Date();
+  time.innerHTML = date;
+}, 1000);

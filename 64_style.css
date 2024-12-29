@@ -19,7 +19,7 @@ body {
   transform: translateX(-50%) translateY(-60%);
   font-size: 60px;
   font-family: "Times New Roman", Times, serif;
-  letter-spacing: 7px;
+  letter-spacing: 9px;
   /* background-color: thistle; */
 }
 .clock {
