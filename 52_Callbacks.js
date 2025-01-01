@@ -1,4 +1,5 @@
 // Callbacks
+
 function loadScript(src, callback) {
   let script = document.createElement("script");
   script.src = src;
@@ -29,6 +30,6 @@ function goodBye(error, src) {
   alert("GoodBye " + src);
 }
 loadScript(
-  "https://cdn.jsdeflivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js",
-  goodBye
+  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js",
+  hello
 );
