@@ -1,7 +1,7 @@
 const promise = new Promise(function (resolve, reject) {
   alert("I am an alert in promise!");
   resolve(54);
-  // reject(78)
+  // reject(78);
 });
 
 console.log("Hello One!");
