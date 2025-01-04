@@ -16,11 +16,11 @@ promise
     return promise2; // When Promise2 fulfilled only then .then() will work and give its value
   })
   .then((value) => {
-    console.log("We are done");
+    console.log("We are done with ", value);
     return 9;
   })
   .then((value) => {
-    console.log("We are pakka done");
+    console.log("We are pakka done 👍 ", value);
   });
 
 //Quiz to write loadScript function with promises
