@@ -25,15 +25,15 @@ let promise3 = new Promise((resolve, reject) => {
 //   console.log(value);
 // });
 
-// let promise_all = Promise.all([promise, promise2, promise3]);
-// promise_all.then((value) => {
-//   console.log(value);
-// });
+let promise_all = Promise.all([promise, promise2, promise3]);
+promise_all.then((value) => {
+  console.log(value);
+});
 
-// let promise_allSettled = Promise.allSettled([promise, promise2, promise3]);
-// promise_allSettled.then((value) => {
-//   console.log(value);
-// });
+let promise_allSettled = Promise.allSettled([promise, promise2, promise3]);
+promise_allSettled.then((value) => {
+  console.log(value);
+});
 
 // let promise_race = Promise.race([promise, promise2, promise3]);
 // promise_race.then((value) => {
