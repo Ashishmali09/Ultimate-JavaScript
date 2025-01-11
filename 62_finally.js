@@ -1,4 +1,4 @@
-let f = () => {
+let fun = () => {
   try {
     let x = 0;
     // console.log(Program);
@@ -15,5 +15,5 @@ let f = () => {
     // Write to the log file
   }
 };
-f();
+fun();
 console.log("End");
