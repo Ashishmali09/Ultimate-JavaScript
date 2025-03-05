@@ -15,12 +15,13 @@ body {
   position: absolute;
   top: 30%;
   left: 50%;
-  color: #e37a33;
+  color: #581845;
   transform: translateX(-50%) translateY(-60%);
   font-size: 60px;
   font-family: "Times New Roman", Times, serif;
-  letter-spacing: 9px;
-  /* background-color: thistle; */
+  letter-spacing: 7px;
+  background-color: thistle;
+  padding: 20px;
 }
 .clock {
   position: absolute;
