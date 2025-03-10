@@ -1,7 +1,7 @@
 let promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve(1);
-  }, 10000);
+  }, 9000);
 });
 let promise2 = new Promise((resolve, reject) => {
   setTimeout(() => {
