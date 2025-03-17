@@ -1,4 +1,5 @@
 let fun = () => {
+  console.log("start");
   try {
     let x = 0;
     // console.log(Program);
