@@ -14,7 +14,7 @@
 //   "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 // );
 // a.then((value) => {
-//   // console.log(value);
+//   console.log(value);
 //   alert(value);
 // });
 
@@ -83,15 +83,15 @@ let promise3 = async () => {
 
 const run = async () => {
   console.time("run");
-    let a = await promise(); // Fetch first 10 products from the database
-    let b = await promise2(); // Fetch another 10 products from the database
-    let c = await promise3(); // Fetch yet another 10 products from the database
+  // let a = await promise(); // Fetch first 10 products from the database
+  // let b = await promise2(); // Fetch another 10 products from the database
+  // let c = await promise3(); // Fetch yet another 10 products from the database
 
-//   let a = promise(); // Fetch first 10 products from the database
-//   let b = promise2(); // Fetch another 10 products from the database
-//   let c = promise3(); // Fetch yet another 10 products from the database
-//   let abc = await Promise.all([a, b, c]);
-//   console.log(abc);
+  let a = promise(); // Fetch first 10 products from the database
+  let b = promise2(); // Fetch another 10 products from the database
+  let c = promise3(); // Fetch yet another 10 products from the database
+  let abc = await Promise.all([a, b, c]);
+  console.log(abc);
   console.log(a, b, c);
   console.timeEnd("run");
 };
