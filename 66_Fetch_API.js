@@ -4,6 +4,6 @@ p.then((response) => {
   console.log(response.ok);
   console.log(response.headers);
   return response.json();
-}).then((respose) => {
-  console.log(respose);
+}).then((response) => {
+  console.log(response);
 });
